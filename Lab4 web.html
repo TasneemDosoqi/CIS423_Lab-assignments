@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <title>Drop-down menu </title>
+          <style type= "text/css"> 
+
+body { font-family: arial, sans-serif;}
+              
+nav {  font-weight: bold;
+		color: white;
+		text-align: center;
+	    width: 10em;
+	    margin: 0;
+        padding: 0;
+    }
+
+.dropdown1 {
+
+		background-color: royalblue;
+		border: 3px solid royalblue;
+		position: absolute;
+	    top: 0px;
+		left: 0px;
+}
+
+              .dropdown1 li {border-top: 2px solid royalblue; }
+
+.dropdown2 {
+			
+               background-color: green;
+               border: 3px solid green;
+               position: absolute;
+               top: 0px;
+               left: 167px;
+            }
+
+.dropdown2:hover {  background-color: red;}
+
+nav ul {    display: none;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+        }
+
+nav:hover ul {  display: block;}
+
+	
+	
+nav ul li { background-color: white;
+            width: 10em;
+}
+
+
+		
+nav ul li:hover { background-color: powderblue; }
+
+a {     text-decoration: none;
+        color: black;                
+}
+
+</style>
+</head>
+        
+<body>
+<nav class="dropdown1">
+Faculty
+  <ul>
+  <li><a href= "https://www.iau.edu.sa/en">Schedules</a></li>
+  <li><a href= "https://www.iau.edu.sa/en">Courses</a></li>
+  <li><a href= "https://www.iau.edu.sa/en">Affiliation</a></li>
+  <li><a href= "https://www.iau.edu.sa/en"> Departments </a> </li>
+  </ul>
+  </nav>
+ 
+<nav class="dropdown2">
+ Students
+<ul>
+           <li><a href="https://www.iau.edu.sa/en">Registration</a></li>
+           <li><a href="https://www.iau.edu.sa/en">Courses</a></li>
+           <li><a href="https://www.iau.edu.sa/en">Libarary</a></li>
+           <li><a href="https://www.iau.edu.sa/en">Support Center</a></li>
+           <li><a href="https://www.iau.edu.sa/en">Clubs</a></li>
+  
+       </ul>
+  </nav>        
+    </body>
+</html>
